@@ -573,6 +573,9 @@ ul, ol { list-style: none; }
 .purple-gradient { background: linear-gradient(135deg, #9333ea, #ec4899); }
 .rose-gradient { background: linear-gradient(135deg, #f43f5e, #dc2626); }
 .indigo-gradient { background: linear-gradient(135deg, #4f46e5, #8b5cf6); }
+.project-thumb-book { background-image: url('project-bookvideos.png'); background-position: center top; }
+.project-thumb-artofai { background-image: url('project-artofai.png'); background-position: center top; }
+.project-thumb-thrivecore { background-image: url('project-thrivecore.png'); background-position: center top; }
 
 .project-overlay {
   position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; gap: 12px;
