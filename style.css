@@ -259,6 +259,24 @@ ul, ol { list-style: none; }
               radial-gradient(ellipse at 80% 80%, rgba(245,158,11,0.05) 0%, transparent 50%),
               var(--dark);
 }
+[data-theme="light"] .hero {
+  background: radial-gradient(ellipse at 50% 0%, rgba(249,115,22,0.18) 0%, transparent 60%),
+              radial-gradient(ellipse at 80% 80%, rgba(245,158,11,0.12) 0%, transparent 50%),
+              #1a1f2b;
+  color: #e2e8f0;
+}
+[data-theme="light"] .hero .text-white,
+[data-theme="light"] .hero h1 .text-white { color: #ffffff; }
+[data-theme="light"] .hero-subtitle { color: #cbd5e1; }
+[data-theme="light"] .hero-grid { opacity: 0.08; }
+[data-theme="light"] .blob-1 { background: rgba(249,115,22,0.35); }
+[data-theme="light"] .blob-2 { background: rgba(245,158,11,0.3); }
+[data-theme="light"] .blob-3 { background: rgba(234,88,12,0.25); }
+[data-theme="light"] .particle { background: rgba(249,115,22,0.7); }
+[data-theme="light"] .particle:nth-child(odd) { background: rgba(245,158,11,0.6); }
+[data-theme="light"] .hero-watermark { opacity: 0.08; }
+[data-theme="light"] .hero-ring { border-color: rgba(249,115,22,0.15); }
+[data-theme="light"] .hero-ring::after { border-color: rgba(245,158,11,0.1); }
 .hero-bg { position: absolute; inset: 0; overflow: hidden; }
 
 /* Animated floating blobs */
