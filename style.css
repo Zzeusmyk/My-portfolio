@@ -28,22 +28,22 @@
 }
 
 [data-theme="light"] {
-  --dark: #f8fafc;
-  --dark-light: #ffffff;
-  --dark-lighter: #e2e8f0;
+  --dark: #d8dde5;
+  --dark-light: #e4e8ef;
+  --dark-lighter: #c7cdd8;
   --text: #1e293b;
   --text-muted: #475569;
   --text-dim: #64748b;
   --heading: #0f172a;
-  --white-5: rgba(15,23,42,0.04);
-  --white-10: rgba(15,23,42,0.08);
-  --white-6: rgba(15,23,42,0.06);
-  --card-bg: rgba(255,255,255,0.8);
-  --card-bg-alt: rgba(255,255,255,0.6);
-  --section-alt-bg: rgba(241,245,249,0.6);
-  --navbar-bg: rgba(255,255,255,0.75);
+  --white-5: rgba(15,23,42,0.05);
+  --white-10: rgba(15,23,42,0.1);
+  --white-6: rgba(15,23,42,0.07);
+  --card-bg: rgba(228,232,239,0.7);
+  --card-bg-alt: rgba(220,225,233,0.6);
+  --section-alt-bg: rgba(200,207,218,0.5);
+  --navbar-bg: rgba(216,221,229,0.85);
   --overlay-bg: rgba(15,23,42,0.4);
-  --drawer-bg: rgba(255,255,255,0.95);
+  --drawer-bg: rgba(228,232,239,0.95);
 }
 
 body { transition: background 0.3s ease, color 0.3s ease; }
