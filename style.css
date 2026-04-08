@@ -41,7 +41,7 @@
   --card-bg: rgba(228,232,239,0.7);
   --card-bg-alt: rgba(220,225,233,0.6);
   --section-alt-bg: rgba(200,207,218,0.5);
-  --navbar-bg: rgba(216,221,229,0.97);
+  --navbar-bg: rgba(216,221,229,1);
   --overlay-bg: rgba(15,23,42,0.4);
   --drawer-bg: rgba(228,232,239,0.95);
 }
