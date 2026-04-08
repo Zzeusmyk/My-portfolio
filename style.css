@@ -388,6 +388,10 @@ ul, ol { list-style: none; }
   background: rgba(249,115,22,0.1); border: 1px solid rgba(249,115,22,0.2);
   margin-bottom: 24px; font-size: 13px; color: var(--primary-light);
 }
+[data-theme="light"] .badge {
+  background: rgba(249,115,22,0.15); border-color: rgba(249,115,22,0.35);
+  color: var(--primary-dark);
+}
 @media (min-width: 640px) { .badge { padding: 8px 16px; font-size: 14px; margin-bottom: 32px; } }
 .badge-dot {
   width: 8px; height: 8px; border-radius: 50%; background: #34d399;
