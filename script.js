@@ -4,6 +4,21 @@ document.addEventListener('DOMContentLoaded', () => {
   // ===== YEAR =====
   document.getElementById('year').textContent = new Date().getFullYear();
 
+  // ===== THEME TOGGLE =====
+  const themeToggle = document.getElementById('themeToggle');
+  if (themeToggle) {
+    themeToggle.addEventListener('click', () => {
+      const isLight = document.documentElement.getAttribute('data-theme') === 'light';
+      if (isLight) {
+        document.documentElement.removeAttribute('data-theme');
+        localStorage.setItem('theme', 'dark');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'light');
+        localStorage.setItem('theme', 'light');
+      }
+    });
+  }
+
   // ===== NAVBAR SCROLL =====
   const navbar = document.getElementById('navbar');
   const navLinks = document.querySelectorAll('.nav-link');
